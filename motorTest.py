@@ -43,7 +43,7 @@ class stepperMotor():
 
 workingGPIOPins = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 22, 23, 24, 25, 26, 27]
 
-motor1 = stepperMotor(22, 23, 24, 25)
+motor1 = stepperMotor(22, 23, 24, 25, 0.01)
 
 while True:
     for a in range(0, 360):
